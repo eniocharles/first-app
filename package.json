@@ -10,7 +10,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "gerar-app" : "ionic build && ionic cap copy && ionic cap sync && ionic cap open android"
+    "gerar-app": "ionic build && ionic cap copy && ionic cap sync && ionic cap open android"
   },
   "private": true,
   "dependencies": {
@@ -24,11 +24,15 @@
     "@angular/router": "^17.0.2",
     "@capacitor/android": "6.0.0",
     "@capacitor/app": "6.0.0",
+    "@capacitor/camera": "^6.0.0",
     "@capacitor/core": "6.0.0",
+    "@capacitor/filesystem": "^6.0.0",
     "@capacitor/haptics": "6.0.0",
     "@capacitor/keyboard": "6.0.0",
+    "@capacitor/preferences": "^6.0.0",
     "@capacitor/status-bar": "6.0.0",
     "@ionic/angular": "^8.0.0",
+    "@ionic/pwa-elements": "^3.2.2",
     "ionicons": "^7.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
