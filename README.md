@@ -1,3 +1,3 @@
 # Horizontal-Swiper 
 Estudando e praticando...
-![teste da camera]([url_da_imagem](![image](https://github.com/eniocharles/first-app/assets/120492104/7f17c45d-053b-48f7-994a-de9ee8a5b26b))
+![teste da camera]([url_da_imagem](![image](https://github.com/eniocharles/first-app/assets/120492104/7f17c45d-053b-48f7-994a-de9ee8a5b26b))]
