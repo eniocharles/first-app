@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PhotoService } from "src/app/services/photo.service";
 
 @Component({
   selector: 'app-tab1',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Tab1Page implements OnInit {
 
-  constructor() { }
+  constructor(private photoService: PhotoService) {}
+
+  async toggleFlash() {
+    await this.photoService.toggleFlashlight();
+  }
 
   ngOnInit() {
   }

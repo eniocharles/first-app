@@ -4,7 +4,7 @@ import { Filesystem, Directory } from '@capacitor/filesystem';
 import { Preferences } from '@capacitor/preferences';
 import { Platform } from '@ionic/angular';
 import { Capacitor } from '@capacitor/core';
-
+import { CapacitorFlash } from '@capgo/capacitor-flash'; // Importe o CapacitorFlash
 
 @Injectable({
   providedIn: 'root'
@@ -16,12 +16,26 @@ export class PhotoService {
   private platform: Platform;
 
 
-  // Salva a imagem em arquivo no dispositivo
+  // Adicione este método para ligar/desligar o flash
+  public async toggleFlashlight() {
+    const isAvailable = await CapacitorFlash.isAvailable();
+    if (isAvailable.value) {
+      const isOn = await CapacitorFlash.isSwitchedOn();
+      if (isOn.value) {
+        await CapacitorFlash.switchOff();
+      } else {
+        await CapacitorFlash.switchOn({ intensity: 1.0 });
+      }
+    } else {
+      console.log('Flashlight not available on this device.');
+    }
+  }
+
+  
+
   private async savePicture(photo: Photo) {
-    // Converte uma foto para o formato base64, exigido pela API do sistema de arquivos para salvar
     const base64Data = await this.readAsBase64(photo);
   
-    //Grave o arquivo no diretório de dados
     const fileName = Date.now() + '.jpeg';
     const savedFile = await Filesystem.writeFile({
       path: fileName,

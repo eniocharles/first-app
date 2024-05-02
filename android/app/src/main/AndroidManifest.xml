@@ -38,4 +38,14 @@
     <!-- Permissions -->
 
     <uses-permission android:name="android.permission.INTERNET" />
+  <!--Camera, Photos, input, file -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <!-- Permissions: Allows access to flashlight -->
+    <uses-permission android:name="android.permission.CAMERA" android:maxSdkVersion="23" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <!-- Actual Hardware Features Used-->
+    <uses-feature android:name="android.hardware.camera.flash" android:required="true" />
 </manifest>
