@@ -1,2 +1,3 @@
+# Horizontal-Swiper 
 Estudando e praticando...
-![teste da camera]([url_da_imagem](https://github.com/eniocharles/first-app/blob/d914efa5024b244293966631775a4d948ae9418d/1-WhatsApp%20Image%202024-05-02%20at%2001.09.27.jpeg))
+![teste da camera]([url_da_imagem](![image](https://github.com/eniocharles/first-app/assets/120492104/7f17c45d-053b-48f7-994a-de9ee8a5b26b))
