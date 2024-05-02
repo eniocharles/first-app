@@ -1,5 +1,5 @@
 # Estudando e praticando...
-![testanto câmera](https://github.com/eniocharles/first-app/assets/120492104/8ea8beac-9ca7-4f48-8ac5-063746386e77) width="350" height="500" />
+![testanto câmera](https://github.com/eniocharles/first-app/assets/120492104/8ea8beac-9ca7-4f48-8ac5-063746386e77 = 350x500) />
 
 ![View da pequena galeria](https://github.com/eniocharles/first-app/assets/120492104/77a812d3-0cec-40cb-9403-dbcc74835a98) width="200" height="400" />
 
