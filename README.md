@@ -1,5 +1,4 @@
 # Estudando e praticando...
-Versão 1:
 Aprendendo sobre aplicações híbridas e o uso de plugins permitindo acesso a ferramentas nativas como câmera e lanterna
 <img src="https://github.com/eniocharles/first-app/assets/120492104/8ea8beac-9ca7-4f48-8ac5-063746386e77" width="50%">
 
